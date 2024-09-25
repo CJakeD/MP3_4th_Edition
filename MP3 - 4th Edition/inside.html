@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Inside</title>
+  <link rel="icon" href="Images\Inside Album Cover.jpg">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+
+<body>
+  <a href="main.html"><button class="Goback">Go Back</button></a>
+  <div class="awrapper">
+    <div class="cover">
+      <img src="Images\Inside Album Cover.jpg" class="acover">
+    </div>
+    <div class="aheader">
+        <h1>Inside (Chevy, HoyoMix)</h1>
+        <br>
+        <p class="desc">INSIDE is the ninth original soundtrack album to be released for Honkai: Star Rail.
+          It features a total of six soundtracks produced by the HOYO-MiX team, with Chevy on vocals as Robin's singing voice.</p>
+    </div>
+
+    <div class="player">
+      <audio id="audio-player"></audio>
+  
+      <!-- Playlist -->
+      <ul id="playlist">
+        <li data-src="Music\Inside\Sway to My Beat in the Cosmos.mp3">Sway to my Beat in the Cosmos</li>
+        <li data-src="Music\Inside\If I Can Stop One Heart From Breaking.mp3">If I Can Stop One Heart From Breaking</li>
+        <li data-src="Music\Inside\Hope Is the Thing With Feathers.mp3">Hope Is the Thing With Feathers</li>
+        <li data-src="Music\Inside\Had I Not Seen the Sun.mp3">Had I Not Seen the Sun</li>
+      </ul>
+  
+      <!-- Controls -->
+      <div class="controls">
+        <button id="back-btn">⏮️ Back</button>
+        <button id="play-btn">▶️ Play</button>
+        <button id="forward-btn">⏭️ Forward</button>
+      </div>
+  
+    </div>
+
+  </div>
+
+  <script src="playjava.js"></script>
+
+</body>
+
+</html>
